@@ -4,19 +4,7 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Vijay Kumar Bandarapu</title>
-<section>
-    <h2>My Photos</h2>
 
-    vijay.jpeg
-    college.jpeg
-    beach.jpeg
-    <img src="pencil.jpeg" width="250">
-</section>
-    img{
-    margin:10px;
-    border-radius:10px;
-    box-shadow:0 3px 8px rgba(0,0,0,0.3);
-}
 <style>
 body{
     margin:0;
@@ -58,6 +46,24 @@ h1,h2{
     border-radius:20px;
 }
 
+.gallery{
+    text-align:center;
+}
+
+.gallery img{
+    width:250px;
+    margin:10px;
+    border-radius:10px;
+    box-shadow:0 3px 8px rgba(0,0,0,0.3);
+}
+
+.profile-pic{
+    width:150px;
+    border-radius:50%;
+    border:4px solid white;
+    margin-bottom:20px;
+}
+
 footer{
     background:#222;
     color:white;
@@ -68,9 +74,11 @@ footer{
 </style>
 
 </head>
-
 <body>
-    <header>
+
+<header>
+    <img src="vijay.jpeg" class="profile-pic" alt="Profile Photo">
+
     <h1>Vijay Kumar Bandarapu</h1>
     <p>ECE Student | Cyber Security Enthusiast | Technology Learner</p>
 </header>
@@ -78,9 +86,10 @@ footer{
 <section>
     <h2>About Me</h2>
     <p>
-        I am Vijay Kumar Bandarapu from Warangal. I am pursuing Electronics and
-        Communication Engineering at NMREC. I am interested in Cyber Security,
-        Artificial Intelligence, Cloud Computing and Software Development.
+        I am Vijay Kumar Bandarapu from Warangal. I am pursuing
+        Electronics and Communication Engineering at NMREC.
+        I am interested in Cyber Security, Artificial Intelligence,
+        Cloud Computing and Software Development.
     </p>
 </section>
 
@@ -101,4 +110,29 @@ footer{
     <ul>
         <li>Personal Portfolio Website</li>
         <li>Cyber Security Learning Projects</li>
-        <li>AI and Technology Experiments
+        <li>AI and Technology Experiments</li>
+    </ul>
+</section>
+
+<section class="gallery">
+    <h2>My Photos</h2>
+
+    <img src="vijay.jpeg" alt="Vijay">
+    <img src="college.jpeg" alt="College">
+    <img src="beach.jpeg" alt="Beach">
+    <img src="pencil.jpeg" alt="Pencil">
+    <img src="github.jpeg" alt="Profile">
+</section>
+
+<section>
+    <h2>Contact</h2>
+    <p>Email: your-email@example.com</p>
+    <p>Location: Warangal, Telangana</p>
+</section>
+
+<footer>
+    © 2026 Vijay Kumar Bandarapu
+</footer>
+
+</body>
+</html>
